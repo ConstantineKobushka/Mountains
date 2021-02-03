@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mountains</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:400,500,700&display=swap&subset=cyrillic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__row">
+          <div class="header__logotype">
+            <a href="#">
+              <img src="images/logo.svg" alt="" />
+            </a>
+          </div>
+          <nav class="header__menu">
+            <div class="header__menu-btn">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <ul class="header__menu-list">
+              <li><a href="#about-tours">О нас</a></li>
+              <li><a href="#tours">Туры</a></li>
+              <li><a href="#list">Подбор тура</a></li>
+              <li><a href="#blog">Блог</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__btn">
+          <ul class="header__btn-list">
+            <li>
+              <a href="tel:88007773325" class="header__phone">8 (800) 777-33-25</a>
+            </li>
+            <li><a class="header__search" href="#"></a></li>
+            <li><a class="header__login" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="header__slider">
+    <div class="header__slider-item" style="background-image: url(images/slide1.jpg)">
+      <div class="header__slider-title title">Эверест</div>
+      <div class="header__slider-text">Восхождение для опытных альпинистов</div>
+      <a href="#" class="header__slider-button">Подробнее</a>
+    </div>
+    <div class="header__slider-item" style="background-image: url(images/slide2.jpg)">
+      <div class="header__slider-title title">Эльбрус</div>
+      <div class="header__slider-text">Восхождение для опытных альпинистов</div>
+      <a href="#" class="header__slider-button">Подробнее</a>
+    </div>
+  </div>
+
+  <section id="about-tours" class="about-tours">
+    <div class="container">
+      <div class="about-tours__inner">
+        <div class="about-tours__descr">
+          <div class="about-tours__title title">
+            Туры с восхождением на вершины мира
+          </div>
+          <p class="about-tours__text">
+            Мы являемся экспертами в организации альпинистских туров для
+            опытных альпинистов и для новичков. Вы можете доверить нам полную
+            организацию вашего приключения от А до Я и быть уверенными в
+            качестве и безопасности восхождения. Наша компания предоставляет
+            все необходимое: консультацию по выбору тура, перелет, визу,
+            бронирование проживания, питание, оборудование, необходимое для
+            восхождения, опытных гидов, полное сопровождение.
+          </p>
+          <p class="about-tours__text">
+            Наша компания предоставляет все необходимое: консультацию по
+            выбору тура, перелет, визу, бронирование проживания, питание,
+            оборудование, необходимое для восхождения, опытных гидов, полное
+            сопровождение.
+          </p>
+        </div>
+        <div class="about-tours-map">
+          <img src="images/Tur.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tours" class="tours">
+    <div class="container">
+      <div class="tours__title title">Популярные туры</div>
+      <div class="tours__slider">
+        <div class="tours__slider-item" style="background-image: url(images/beluha-slide.jpg)">
+          <div class="tours__slider-location">Россия</div>
+          <a href="#" class="tours__data"></a>
+          <div class="tours__slider-title">Белуха</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>4506 м</li>
+              <li>12 дней</li>
+              <li>от 45000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level">Средний уровень</div>
+        </div>
+        <div class="tours__slider-item" style="background-image: url(images/elbrus-slide.jpg)">
+          <div class="tours__slider-location">Россия</div>
+          <a href="#" class="data"></a>
+          <div class="tours__slider-title">Эльбрус</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>5642 м</li>
+              <li>10 дней</li>
+              <li>от 25000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level">Средний уровень</div>
+        </div>
+        <div class="tours__slider-item" style="background-image: url(images/kilimangara-slide.jpg)">
+          <div class="tours__slider-location">Танзания</div>
+          <a href="#" class="data"></a>
+          <div class="tours__slider-title">Килиманджаро</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>5895 м</li>
+              <li>4 дней</li>
+              <li>от 55000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level simpl">Простой уровень</div>
+        </div>
+        <div class="tours__slider-item" style="background-image: url(images/beluha-slide.jpg)">
+          <div class="tours__slider-location">Россия</div>
+          <a href="#" class="data"></a>
+          <div class="tours__slider-title">Белуха</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>4506 м</li>
+              <li>12 дней</li>
+              <li>от 45000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level">Средний уровень</div>
+        </div>
+        <div class="tours__slider-item" style="background-image: url(images/elbrus-slide.jpg)">
+          <div class="tours__slider-location">Россия</div>
+          <a href="#" class="data"></a>
+          <div class="tours__slider-title">Эльбрус</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>5642 м</li>
+              <li>10 дней</li>
+              <li>от 25000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level">Средний уровень</div>
+        </div>
+        <div class="tours__slider-item" style="background-image: url(images/kilimangara-slide.jpg)">
+          <div class="tours__slider-location">Танзания</div>
+          <a href="#" class="data"></a>
+          <div class="tours__slider-title">Килиманджаро</div>
+          <div class="tours__slider-descr">
+            <ul class="tours__slider-descr-list">
+              <li>5895 м</li>
+              <li>4 дней</li>
+              <li>от 55000<span></span></li>
+            </ul>
+          </div>
+          <div class="tours__slider-level simpl">Простой уровень</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="list" class="list">
+    <div class="list__slider">
+      <div class="list__slider-item" style="background-image: url(images/slider-list1.png)">
+        <div class="list__title title">Россия</div>
+        <div class="list__text">
+          Более 15 туров для альпинистов всех уровней
+        </div>
+        <div class="list__inner">
+          <div class="list__peak list__peak-column">
+            <div class="list__peak-name">Вершина</div>
+            <div class="peak-name">Эльбрус</div>
+            <div class="peak-name">Казбек</div>
+            <div class="peak-name">Белуха</div>
+            <div class="peak-name">Дыхтау</div>
+          </div>
+          <div class="list__height list__peak-column">
+            <div class="list__peak-name">Высота</div>
+            <div class="peak-name">5642 м</div>
+            <div class="peak-name">5033 м</div>
+            <div class="peak-name">4506 м</div>
+            <div class="peak-name">5204 м</div>
+          </div>
+          <div class="list__level list__peak-column">
+            <div class="list__peak-name">Уровень</div>
+            <div class="peak-name">Средний</div>
+            <div class="peak-name">Сложный</div>
+            <div class="peak-name">Простой</div>
+            <div class="peak-name">Сложный</div>
+          </div>
+          <div class="list__cost list__peak-column">
+            <div class="list__peak-name">Стоимость</div>
+            <div class="peak-name">от 25 000 <span></span></div>
+            <div class="peak-name">от 30 000 <span></span></div>
+            <div class="peak-name">от 20 000 <span></span></div>
+            <div class="peak-name">от 40 000 <span></span></div>
+          </div>
+        </div>
+        <a class="list__button" href="#" class="">Смотреть все</a>
+      </div>
+      <div class="list__slider-item" style="background-image: url(images/slider-list1.png)">
+        <div class="list__title title">Россия</div>
+        <div class="list__text">
+          Более 15 туров для альпинистов всех уровней
+        </div>
+        <div class="list__inner">
+          <div class="list__peak list__peak-column">
+            <div class="list__peak-name">Вершина</div>
+            <div class="peak-name">Эльбрус</div>
+            <div class="peak-name">Казбек</div>
+            <div class="peak-name">Белуха</div>
+            <div class="peak-name">Дыхтау</div>
+          </div>
+          <div class="list__height list__peak-column">
+            <div class="list__peak-name">Высота</div>
+            <div class="peak-name">5642 м</div>
+            <div class="peak-name">5033 м</div>
+            <div class="peak-name">4506 м</div>
+            <div class="peak-name">5204 м</div>
+          </div>
+          <div class="list__level list__peak-column">
+            <div class="list__peak-name">Уровень</div>
+            <div class="peak-name">Средний</div>
+            <div class="peak-name">Сложный</div>
+            <div class="peak-name">Простой</div>
+            <div class="peak-name">Сложный</div>
+          </div>
+          <div class="list__cost list__peak-column">
+            <div class="list__peak-name">Стоимость</div>
+            <div class="peak-name">от 25 000 <span></span></div>
+            <div class="peak-name">от 30 000 <span></span></div>
+            <div class="peak-name">от 20 000 <span></span></div>
+            <div class="peak-name">от 40 000 <span></span></div>
+          </div>
+        </div>
+        <a class="list__button" href="#" class="">Смотреть все</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="blog__title title">Блог</div>
+      <div class="blog__inner tabs-wrapper">
+        <div class="blog__news">
+          <a class="blog__news-item blog__news-item--active" href="#news-1">
+            <label class="blog__date">10 января, 2020</label>
+            <p href="#">Как подготовиться к первому восхождению на вершину</p>
+          </a>
+          <a class="blog__news-item" href="#news-2">
+            <label class="blog__date">15 января, 2020</label>
+            <p>
+              Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16
+              февраля
+            </p>
+          </a>
+          <a class="blog__news-item" href="#news-3">
+            <label class="blog__date">20 декабря, 2019</label>
+            <p>Особенности альпинизма на Камчатке. Все о Ключевой Сопке</p>
+          </a>
+          <a class="blog__news-item" href="#news-4">
+            <label class="blog__date">25 декабря, 2019</label>
+            <p>Что происходит с человеком на высоте более 3000 метров?</p>
+          </a>
+          <a class="blog__news-item" href="#news-5">
+            <label class="blog__date">10 февраля, 2019</label>
+            <p>Что происходит с человеком на высоте более 5000 метров?</p>
+          </a>
+          <a class="blog__button" href="#" class="">Читать все новости</a>
+        </div>
+        <div class="blog__descr">
+          <div id="news-1" class="blog__descr-item blog__descr-item--active">
+            <div class="blog__descr-img">
+              <img src="images/blog-img.jpg" alt="" />
+            </div>
+            <label class="blog__date">10 января, 2020</label>
+            <div class="blog__descr-title">
+              Как подготовиться к первому восхождению на вершину
+            </div>
+            <div class="blog__descr-text">
+              <p>
+                Перед тем, как отправиться на покорение вершины горы, нужно не
+                только привести в порядок свою физическую форму, но и
+                тренировать выносливость, дыхательную и сердечно-сосудистую
+                системы. Именно на них приходится максимальная нагрузка на
+                высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                на полпути. Чтобы этого не случилось, занимайтесь плаванием,
+                бегом, велосипедом и кардиотренировками.
+              </p>
+              <p>
+                Как должны проходить тренировки? В первую очередь, тренировки
+                должны проходить постоянно, эффективно и интенсивно. Кроме того,
+                нагрузка постепенно должна увеличиваться. В случае с бегом
+                обязательно делать это с учетом пульса. Грамотно спланированный
+                бег позволит не только сбросить вес, но и укрепит сердечную
+                мышцу. При беге с высоким пульсом вы позволите организму
+                привыкнуть к недостатку кислорода — то, с чем обязательно
+                встретитесь в горах. Для укрепления физической подготовки и
+                повышения выносливости также бегайте в горку или в быстром темпе
+                поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до
+                путешествия!
+              </p>
+            </div>
+          </div>
+          <div id="news-2" class="blog__descr-item">
+            <div class="blog__descr-img">
+              <img src="images/blog-img.jpg" alt="" />
+            </div>
+            <label class="blog__date">15 января, 2020</label>
+            <div class="blog__descr-title">
+              Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16
+              февраля
+            </div>
+            <div class="blog__descr-text">
+              <p>
+                Перед тем, как отправиться на покорение вершины горы, нужно не
+                только привести в порядок свою физическую форму, но и
+                тренировать выносливость, дыхательную и сердечно-сосудистую
+                системы. Именно на них приходится максимальная нагрузка на
+                высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                на полпути. Чтобы этого не случилось, занимайтесь плаванием,
+                бегом, велосипедом и кардиотренировками.
+              </p>
+              <p>
+                Как должны проходить тренировки? В первую очередь, тренировки
+                должны проходить постоянно, эффективно и интенсивно. Кроме того,
+                нагрузка постепенно должна увеличиваться. В случае с бегом
+                обязательно делать это с учетом пульса. Грамотно спланированный
+                бег позволит не только сбросить вес, но и укрепит сердечную
+                мышцу. При беге с высоким пульсом вы позволите организму
+                привыкнуть к недостатку кислорода — то, с чем обязательно
+                встретитесь в горах. Для укрепления физической подготовки и
+                повышения выносливости также бегайте в горку или в быстром темпе
+                поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до
+                путешествия!
+              </p>
+            </div>
+          </div>
+          <div id="news-3" class="blog__descr-item">
+            <div class="blog__descr-img">
+              <img src="images/blog-img.jpg" alt="" />
+            </div>
+            <label class="blog__date">20 декабря, 2020</label>
+            <div class="blog__descr-title">
+              Особенности альпинизма на Камчатке. Все о Ключевой Сопке
+            </div>
+            <div class="blog__descr-text">
+              <p>
+                Перед тем, как отправиться на покорение вершины горы, нужно не
+                только привести в порядок свою физическую форму, но и
+                тренировать выносливость, дыхательную и сердечно-сосудистую
+                системы. Именно на них приходится максимальная нагрузка на
+                высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                на полпути. Чтобы этого не случилось, занимайтесь плаванием,
+                бегом, велосипедом и кардиотренировками.
+              </p>
+              <p>
+                Как должны проходить тренировки? В первую очередь, тренировки
+                должны проходить постоянно, эффективно и интенсивно. Кроме того,
+                нагрузка постепенно должна увеличиваться. В случае с бегом
+                обязательно делать это с учетом пульса. Грамотно спланированный
+                бег позволит не только сбросить вес, но и укрепит сердечную
+                мышцу. При беге с высоким пульсом вы позволите организму
+                привыкнуть к недостатку кислорода — то, с чем обязательно
+                встретитесь в горах. Для укрепления физической подготовки и
+                повышения выносливости также бегайте в горку или в быстром темпе
+                поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до
+                путешествия!
+              </p>
+            </div>
+          </div>
+          <div id="news-4" class="blog__descr-item">
+            <div class="blog__descr-img">
+              <img src="images/blog-img.jpg" alt="" />
+            </div>
+            <label class="blog__date">25 декабря, 2020</label>
+            <div class="blog__descr-title">
+              Что происходит с человеком на высоте более 3000 метров?
+            </div>
+            <div class="blog__descr-text">
+              <p>
+                Перед тем, как отправиться на покорение вершины горы, нужно не
+                только привести в порядок свою физическую форму, но и
+                тренировать выносливость, дыхательную и сердечно-сосудистую
+                системы. Именно на них приходится максимальная нагрузка на
+                высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                на полпути. Чтобы этого не случилось, занимайтесь плаванием,
+                бегом, велосипедом и кардиотренировками.
+              </p>
+              <p>
+                Как должны проходить тренировки? В первую очередь, тренировки
+                должны проходить постоянно, эффективно и интенсивно. Кроме того,
+                нагрузка постепенно должна увеличиваться. В случае с бегом
+                обязательно делать это с учетом пульса. Грамотно спланированный
+                бег позволит не только сбросить вес, но и укрепит сердечную
+                мышцу. При беге с высоким пульсом вы позволите организму
+                привыкнуть к недостатку кислорода — то, с чем обязательно
+                встретитесь в горах. Для укрепления физической подготовки и
+                повышения выносливости также бегайте в горку или в быстром темпе
+                поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до
+                путешествия!
+              </p>
+            </div>
+          </div>
+          <div id="news-5" class="blog__descr-item">
+            <div class="blog__descr-img">
+              <img src="images/blog-img.jpg" alt="" />
+            </div>
+            <label class="blog__date">10 февраля, 2020</label>
+            <div class="blog__descr-title">
+              Что происходит с человеком на высоте более 5000 метров?
+            </div>
+            <div class="blog__descr-text">
+              <p>
+                Перед тем, как отправиться на покорение вершины горы, нужно не
+                только привести в порядок свою физическую форму, но и
+                тренировать выносливость, дыхательную и сердечно-сосудистую
+                системы. Именно на них приходится максимальная нагрузка на
+                высоте. Поэтому из-за недостаточной подготовки вы можете сойти
+                на полпути. Чтобы этого не случилось, занимайтесь плаванием,
+                бегом, велосипедом и кардиотренировками.
+              </p>
+              <p>
+                Как должны проходить тренировки? В первую очередь, тренировки
+                должны проходить постоянно, эффективно и интенсивно. Кроме того,
+                нагрузка постепенно должна увеличиваться. В случае с бегом
+                обязательно делать это с учетом пульса. Грамотно спланированный
+                бег позволит не только сбросить вес, но и укрепит сердечную
+                мышцу. При беге с высоким пульсом вы позволите организму
+                привыкнуть к недостатку кислорода — то, с чем обязательно
+                встретитесь в горах. Для укрепления физической подготовки и
+                повышения выносливости также бегайте в горку или в быстром темпе
+                поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до
+                путешествия!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="" class="form">
+    <div class="form__inner">
+      <div class="form__message">
+        <div class="form__message-title title">Нужна помощь с выбором тура?</div>
+        <div class="form__message-text">
+          Заполните форму, наш менеджер свяжется с вами в ближайшее время и
+          подберет подходящий тур
+        </div>
+        <form action="">
+          <input class="form__fild" type="text" name="Name" placeholder="Имя" required /><br />
+          <input class="form__fild" type="phone" name="Phone" placeholder="Телефон" /><br />
+          <input class="form__fild" type="email" name="E-mail" placeholder="E-mail" required /><br />
+          <button class="form__btn" type="submit">Отправить</button>
+        </form>
+        <div class="form__message-text-btn">
+          Нажимая кнопку, вы соглашаетесь с условиями обработки персональных
+          данных
+        </div>
+      </div>
+      <div class="form__img">
+        <img src="images/form-img.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <div class="contacts__inner">
+        <div class="contacts__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651595!2d30.320894616006086!3d59.93879418187624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1588510932664!5m2!1sru!2sua"
+            width="600" height="457" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="contacts__information">
+          <div class="contacts__information-title title">Контакты</div>
+          <label class="contacts__information-label">Адрес</label>
+          <div class="contacts__information-address">
+            Санкт-Петербург, ул. Большая Конюшенная, 19
+          </div>
+          <label class="contacts__information-label">Телефон:</label>
+          <div class="contacts__information-phone">
+            <a href="tel:88007773325">8 (800) 777-33-25</a>
+          </div>
+          <label class="contacts__information-label">E-mail:</label>
+          <div class="contacts__information-mail">info@mountain.ru</div>
+          <label class="contacts__information-label">Социальные сети:</label>
+          <div class="contacts__information-network">
+            <div class="contacts__information-network-list">
+              <a href="#">
+                <img src="images/contacts-icon1.png" alt="" />
+              </a>
+            </div>
+            <div class="contacts__information-network-list">
+              <a href="#">
+                <img src="images/contacts-icon2.png" alt="" />
+              </a>
+            </div>
+            <div class="contacts__information-network-list">
+              <a href="#">
+                <img src="images/contacts-icon3.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <a class="button__up" title="К началу страницы" href="#">UP</a> -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__autor">
+          <a href="#">Maroon<span> <img src="images/footer-icon.png" alt="" /> </span>2020 Все права защищены</a>
+        </div>
+        <div class="footer__logotype">
+          <a href="#">
+            <img src="images/logo.svg" alt="" />
+          </a>
+        </div>
+        <div class="footer__link">
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
